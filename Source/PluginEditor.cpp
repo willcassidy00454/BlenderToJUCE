@@ -52,10 +52,13 @@ void BlenderToJUCEAudioProcessorEditor::SetBoundsFromBlender (juce::Slider &slid
     auto width_fraction = max_x - min_x;
     auto height_fraction = max_y - min_y;
     
-    juce::Rectangle<double> bounds {x_fraction * double(getX()),
-                                    y_fraction * double(getY()),
-                                    width_fraction * double(getWidth()),
-                                    height_fraction * double(getHeight())};
+    auto editor_width = double(getWidth());
+    auto editor_height = double(getHeight());
+    
+    juce::Rectangle<double> bounds {x_fraction * editor_width,
+                                    y_fraction * editor_height,
+                                    width_fraction * editor_width,
+                                    height_fraction * editor_height};
 
     slider.setBounds(bounds.toNearestInt());
 }
