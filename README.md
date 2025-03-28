@@ -1,5 +1,7 @@
 # Blender to JUCE Tutorial
 
+Tutorial/workshop on designing audio plugin GUIs in Blender and implementing the rendered images in JUCE.
+
 ![FullDemo](https://github.com/user-attachments/assets/82ccee9e-286a-4236-b125-4f4605cb4aa6)
 
 ## Dial Render Region
