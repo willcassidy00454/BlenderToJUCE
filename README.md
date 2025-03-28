@@ -1,6 +1,6 @@
 # Blender to JUCE Tutorial
 
-![FullDemo](https://github.com/user-attachments/assets/9300967f-c61e-45b3-8cbe-69bed1de8aaa)
+![FullDemo](https://github.com/user-attachments/assets/82ccee9e-286a-4236-b125-4f4605cb4aa6)
 
 ## Dial Render Region
 
