@@ -31,9 +31,9 @@ def CatVertical(read_dir, num_images, write_name, write_dir = "", uses_name_padd
 
 
 if __name__ == '__main__':
-    CatVertical("/Users/willcassidy/Development/GitHub/BlenderToJUCE/Blender/Dial Output/",
+    CatVertical("/Users/willcassidy/Development/GitHub/BlenderToJUCE/Blender/Renders/Dial Output/",
                 25,
                 "dial_image_sheet",
-                "/Users/willcassidy/Development/GitHub/BlenderToJUCE/Blender/Dial Output/",
+                "/Users/willcassidy/Development/GitHub/BlenderToJUCE/Blender/Renders/Dial Output/",
                 True,
                 1)
