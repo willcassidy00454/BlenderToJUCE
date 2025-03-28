@@ -13,7 +13,7 @@
 BlenderToJUCEAudioProcessorEditor::BlenderToJUCEAudioProcessorEditor (BlenderToJUCEAudioProcessor& p, juce::AudioProcessorValueTreeState& apvts)
     : AudioProcessorEditor (&p), processor_ (p), parameters_(apvts)
 {
-    setSize (1920 / 3, 1080 / 3);
+    setSize (1920 / 2, 1080 / 2);
     
     drive_slider.setName ("Drive");
 //    drive_slider.setLookAndFeel (&custom_look_and_feel_);
